@@ -12,3 +12,7 @@ Let's discuss the famous Black-Scholes pricing formula for European Vanilla Opti
 * T - time to maturity
 * $\sigma$ - constant volatility of the underlying asset S
 * N - Normal cumulative distribution function
+
+The analytical formula for C(S,t) is given by:
+
+$C(S,t) = SN(d_1) - K\exp^{-rT}$
